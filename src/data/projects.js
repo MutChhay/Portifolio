@@ -1,6 +1,7 @@
 import techstoreImg from '../assets/TechGameStore.png';
 import libraryManagement from '../assets/libraryManagement.png';
 import demoVideo from '../assets/video.mp4';
+import TechGame from '../assets/Techgame.mp4';
 export default [{
         id: 1,
         title: 'TechStoreGame',
@@ -20,7 +21,7 @@ export default [{
             'Payment integration',
             'Responsive UI',
         ],
-        image: techstoreImg,
+        video: TechGame,
         github: 'https://github.com/MutChhay/Tech-Game-shop',
         live: 'https://tech-game-shop.vercel.app/',
     },
