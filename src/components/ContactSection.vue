@@ -17,15 +17,15 @@ import { ArrowUpRight, Github, Linkedin, Mail } from 'lucide-vue-next'
       </div>
 
       <div class="contact-actions">
-        <a href="mailto:mutchhay.dev@gmail.com" class="primary-button cursor-target magnetic-button contact-primary">
+        <a href="mutchhay123@gmail.com" class="primary-button cursor-target magnetic-button contact-primary">
           <span>Email Me</span>
           <Mail :size="18" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer" class="secondary-button cursor-target">
+        <a href="https://github.com/MutChhay" target="_blank" rel="noreferrer" class="secondary-button cursor-target">
           <span>GitHub</span>
           <Github :size="18" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="secondary-button cursor-target">
+        <a href="https://www.linkedin.com/in/mut-chhay-b95433431/" target="_blank" rel="noreferrer" class="secondary-button cursor-target">
           <span>LinkedIn</span>
           <Linkedin :size="18" />
         </a>

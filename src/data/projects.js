@@ -1,5 +1,6 @@
 import techstoreImg from '../assets/TechGameStore.png';
 import libraryManagement from '../assets/libraryManagement.png';
+import demoVideo from '../assets/video.mp4';
 export default [{
         id: 1,
         title: 'TechStoreGame',
@@ -25,7 +26,7 @@ export default [{
     },
     {
         id: 2,
-        title: 'Traffic Sign Detection With khmer alerts ',
+        title: 'Traffic Sign Detection With Khmer Alerts',
         category: 'COMPUTER VISION / AI',
         description: 'A real-time traffic sign detection system using YOLO and computer vision to identify traffic signs and provide useful detection results.',
         technologies: ['YOLO', 'Python', 'OpenCV', 'Roboflow', 'Streamlit'],
@@ -38,7 +39,9 @@ export default [{
             'Khmer traffic sign support',
             'Voice feedback',
         ],
-        image: 'https://images.unsplash.com/photo-1531747118376-5f0d4d1f37d8?auto=format&fit=crop&w=1200&q=80',
+
+        video: demoVideo,
+
         github: 'https://github.com',
         live: 'https://example.com',
     },
@@ -51,9 +54,8 @@ export default [{
         features: [
             'Book browsing',
             'Menu selection',
-            'Order management',
+            'Admin management',
             'Checkout flow',
-            'Customer tracking',
             'API integration',
             'Test coverage',
         ],

@@ -24,8 +24,24 @@ const pointerMove = (event) => {
 
 <template>
   <article class="project-card reveal cursor-target" @mousemove="pointerMove">
-    <div class="project-visual" :style="{ backgroundImage: `linear-gradient(135deg, rgba(9, 10, 16, 0.54), rgba(9, 10, 16, 0.16)), url(${project.image})` }">
-      <div class="project-overlay">
+    <div
+      class="project-visual"
+      :style="project.image ? { backgroundImage: `linear-gradient(135deg, rgba(9, 10, 16, 0.54), rgba(9, 10, 16, 0.16)), url(${project.image})` } : {}"
+    >
+      <video
+        v-if="project.video"
+        class="project-video"
+        :src="project.video"
+        :poster="project.image"
+        :aria-label="`Demo video for ${project.title}`"
+        autoplay
+        muted
+        loop
+        playsinline
+        controls
+        preload="metadata"
+      ></video>
+      <div v-else class="project-overlay">
         <span>VIEW PROJECT →</span>
       </div>
     </div>
